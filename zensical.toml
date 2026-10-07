@@ -1,0 +1,58 @@
+[project]
+site_name = "Horse Racing Prediction Reference"
+site_description = "A technical reference for horse-racing prediction, modeling, decision-making, and transferable methods."
+site_url = "https://kanose-migi.github.io/horse-racing-prediction-reference/"
+
+nav = [
+  { "Home" = "index.md" },
+  { "Architecture" = [
+    "architecture/index.md",
+    { "A. Data / Representation" = "architecture/data-representation.md" },
+    { "B. Forecasting" = "architecture/forecasting.md" },
+    { "C. Decision" = "architecture/decision.md" },
+    { "D. Learning Loop" = "architecture/learning-loop.md" },
+  ] },
+  { "Process" = [
+    "process/index.md",
+    { "A1. Data Acquisition" = "process/data-acquisition.md" },
+    { "A2. Point-in-Time Integrity" = "process/point-in-time-integrity.md" },
+    { "A3. Preprocessing" = "process/preprocessing.md" },
+    { "A4. Feature Engineering" = "process/feature-engineering.md" },
+    { "A5. Representation Learning" = "process/representation-learning.md" },
+    { "B1. Fundamental Prediction" = "process/fundamental-prediction.md" },
+    { "B2. Ranking" = "process/ranking.md" },
+    { "B3. Probability Calibration" = "process/probability-calibration.md" },
+    { "B4. Market Modeling" = "process/market-modeling.md" },
+    { "C1. Uncertainty / Selection" = "process/uncertainty-selection.md" },
+    { "C2. Ticket Probability" = "process/ticket-probability.md" },
+    { "C3. Decision Optimization" = "process/decision-optimization.md" },
+    { "C4. Bankroll / Risk" = "process/bankroll-risk.md" },
+    { "D1. Evaluation" = "process/evaluation.md" },
+    { "D2. Shadow Operation" = "process/shadow-operation.md" },
+    { "D3. Online Adaptation" = "process/online-adaptation.md" },
+  ] },
+  { "Technologies" = [
+    "technologies/index.md",
+    { "Horse-racing approaches" = "technologies/horse-racing/index.md" },
+    { "Transferable approaches" = "technologies/transferable/index.md" },
+  ] },
+  { "Glossary" = "glossary/index.md" },
+  { "Sources" = [
+    "sources/index.md",
+    { "Papers" = "sources/papers.md" },
+    { "Open Source" = "sources/open-source.md" },
+    { "Datasets" = "sources/datasets.md" },
+  ] },
+]
+
+[project.theme]
+features = [
+  "navigation.instant",
+  "navigation.tracking",
+  "navigation.tabs",
+  "navigation.sections",
+  "navigation.indexes",
+  "navigation.path",
+  "navigation.top",
+  "toc.follow",
+]
